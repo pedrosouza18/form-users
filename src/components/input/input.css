@@ -1,0 +1,23 @@
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.form-inputs:not(:last-child) {
+    margin-right: 10px;
+}
+.form-inputs__label {
+    text-transform: uppercase;
+}
+.form-inputs__input {
+    height: 25px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 103%;
+    color: #3c3b3b;
+    transition: border .3s;
+}
+.form-inputs__input:focus {
+    border: 2px solid #2196F3;
+}

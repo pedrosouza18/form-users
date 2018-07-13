@@ -1,0 +1,40 @@
+.form-user {
+    display: flex;
+    flex-direction: column;
+}
+.form-user__box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cccccc;
+    padding: 8px;
+    border-radius: 3px;
+}
+.form-user__box:nth-child(2) {
+    margin-top: 7px;
+}
+.form-user__fields {
+    display: inherit;
+    flex-direction: row;
+}
+.form-user__title {
+    margin: 0 0 10px 0;
+}
+
+.form-user__boxbtn {
+    text-align: center;
+    padding-top: 8px;
+}
+.form-user__btn {
+    background-color: #cccccc;
+    border: none;
+    padding: 5px 20px;
+    font-size: 120%;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    transition: background .3s;
+}
+.form-user__btn:hover {
+    background-color: #000 !important;
+    color: #fff;
+}
